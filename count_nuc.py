@@ -17,7 +17,7 @@ def count_nucleotides(seq):
 
 if __name__ == '__main__':
     # get filename
-    filename = 'rosalind_dna.txt'
+    filename = 'Data/rosalind_dna.txt'
     # open file 
     with open(filename) as seq:
         # read content
